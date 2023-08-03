@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  rhminer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
